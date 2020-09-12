@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/c_card_height"
+    android:layout_marginStart="@dimen/c_layout_margin_between_components_half"
+    android:layout_marginEnd="@dimen/c_layout_margin_between_components_half"
+    android:layout_marginBottom="@dimen/c_layout_margin_between_components"
+    android:padding="@dimen/c_layout_margin_between_components"
+    app:cardBackgroundColor="@color/c_white"
+    app:cardCornerRadius="@dimen/c_button_corner_radius_2x"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/studentName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/student_name_placeholder"
+            android:textColor="@color/c_light_gray_font"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/learningHours"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:text="@string/learning_hours_placeholder"
+            android:textColor="@color/colorPrimaryLight"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/studentName"
+            app:layout_constraintTop_toBottomOf="@+id/studentName" />
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/country_placeholder"
+            android:textColor="@color/colorPrimaryLight"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/learningHours"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toEndOf="@+id/learningHours"
+            app:layout_constraintTop_toTopOf="@+id/learningHours"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="73dp"
+            android:layout_height="74dp"
+            android:layout_margin="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/badge_placeholder" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

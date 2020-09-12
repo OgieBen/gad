@@ -1,0 +1,57 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+    <!--    Button values-->
+    <dimen name="c_button_height">55dp</dimen>
+    <dimen name="c_button_corner_radius">6dp</dimen>
+    <dimen name="c_button_corner_radius_2x">12dp</dimen>
+    <dimen name="c_button_corner_radius_smooth">18dp</dimen>
+    <dimen name="c_button_padding">12dp</dimen>
+    <dimen name="c_button_margin_top">10dp</dimen>
+    <dimen name="c_button_margin_below">10dp</dimen>
+    <dimen name="c_button_margin_half_top">5dp</dimen>
+    <dimen name="c_button_bottom_margin">12dp</dimen>
+    <dimen name="c_button_elevation">6dp</dimen>
+
+
+    <dimen name="c_card_elevation">4dp</dimen>
+    <dimen name="c_card_corner_radius">12dp</dimen>
+
+    <dimen name="c_twenty_dp">20dp</dimen>
+    <dimen name="c_thirty_dp">30dp</dimen>
+    <dimen name="c_forty_dp">40dp</dimen>
+    <dimen name="c_fifty_dp">50dp</dimen>
+    <dimen name="c_sixty_dp">60dp</dimen>
+
+    <!--    Layout values -->
+    <dimen name="c_layout_padding">16dp</dimen>
+    <dimen name="c_layout_padding_top">26dp</dimen>
+    <dimen name="c_layout_margin_between_components_half">5dp</dimen>
+    <dimen name="c_layout_margin_between_components">10dp</dimen>
+    <dimen name="c_layout_margin_between_components_2x">20dp</dimen>
+
+
+    <!-- Product values -->
+    <dimen name="p_font_size">20sp</dimen>
+
+    <dimen name="amount_currency_margin">2dp</dimen>
+
+    <!-- Font sizes-->
+    <dimen name="f_auth_options_text_size">16sp</dimen>
+    <dimen name="f_purchase_text_size">66sp</dimen>
+    <dimen name="f_card_size">150dp</dimen>
+    <dimen name="f_card_issuer_text_size">20sp</dimen>
+    <dimen name="f_text_caption">10sp</dimen>
+    <dimen name="f_text_normal">14sp</dimen>
+    <dimen name="f_text_title">16sp</dimen>
+    <dimen name="f_title_large">24sp</dimen>
+    <dimen name="caption_large">12sp</dimen>
+    <dimen name="c_card_height">100dp</dimen>
+
+</resources>
