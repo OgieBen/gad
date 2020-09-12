@@ -1,7 +1,5 @@
 package com.ogieben.gad.data.datasources.gad.remote
 
-import com.ogieben.gad.data.datasources.gad.DataSource
-import com.ogieben.gad.data.models.gad.Student
 import com.ogieben.gad.data.models.gad.StudentHours
 import com.ogieben.gad.data.models.gad.StudentIQ
 import com.ogieben.gad.network.Network
@@ -24,7 +22,7 @@ class RemoteDataSourceImpl(remoteApi: Network): RemoteDataSource {
         firstName: String,
         lastName: String,
         repoUrl: String
-    ): Observable<Any> {
+    ): Observable<String> {
         return gfApiHandler.submitProject(email, firstName, lastName, repoUrl)
     }
 }

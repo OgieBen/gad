@@ -8,5 +8,5 @@ import io.reactivex.Observable
 interface StudentRepository {
     fun fetchLearningLeaders(): Observable<List<StudentHours>>
     fun fetchStudentsWithTopIQs(): Observable<List<StudentIQ>>
-    fun submitProject(email: String, firstName: String, lastName: String, repoUrl: String): Observable<Any>
+    fun submitProject(email: String, firstName: String, lastName: String, repoUrl: String): Observable<String>
 }

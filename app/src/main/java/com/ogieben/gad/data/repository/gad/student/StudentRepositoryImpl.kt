@@ -22,7 +22,7 @@ class StudentRepositoryImpl(private val dataSource: RemoteDataSource) : StudentR
         firstName: String,
         lastName: String,
         repoUrl: String
-    ): Observable<Any> {
+    ): Observable<String> {
         return dataSource.submitProject(email, firstName, lastName, repoUrl)
     }
 }
