@@ -34,7 +34,7 @@ class PageViewModel : ViewModel() {
 
     fun fetchStudentsWithTopIQs(studentRepository: StudentRepository) {
         studentRepository
-            .fetchLearningLeaders()
+            .fetchStudentsWithTopIQs()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
